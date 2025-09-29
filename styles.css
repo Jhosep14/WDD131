@@ -26,5 +26,16 @@ img {
 }
 .mission {
     text-align: left;
-    line-height: 1.6; 
+    line-height: 1.6;
+}
+.dark {
+    background-color: #333;
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.dark h1 {
+    color: #f0f0f0;
+}
+.dark h2 {
+    color: #006EB6;
 }
