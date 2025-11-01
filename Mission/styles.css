@@ -1,0 +1,41 @@
+h1 {
+    color: black;
+    font-size: 30px;
+}
+h2 {
+    color: #457fb9;
+    font-size: 20px;
+}
+body {
+    font-family: 'times new roman';
+    text-align: center;
+    margin: 80px;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 55px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.mission {
+    text-align: left;
+    line-height: 1.6;
+}
+.dark {
+    background-color: #333;
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.dark h1 {
+    color: #f0f0f0;
+}
+.dark h2 {
+    color: #006EB6;
+}
