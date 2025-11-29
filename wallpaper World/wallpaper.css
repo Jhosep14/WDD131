@@ -258,30 +258,30 @@ nav ul li a:hover::after {
 /* Keyframe Animations */
 @keyframes phone-slider {
   0% {
-    background-image: url("Wall-images/phone-wallpaper-1.jpeg");
+    background-image: url("wall-images/phone-wallpaper-1.jpeg");
   }
   30% {
-    background-image: url("Wall-images/phone-wallpaper-2.jpeg");
+    background-image: url("wall-images/phone-wallpaper-2.jpeg");
   }
   60% {
-    background-image: url("Wall-images/phone-wallpaper-3.jpeg");
+    background-image: url("wall-images/phone-wallpaper-3.jpeg");
   }
   100% {
-    background-image: url("Wall-images/phone-wallpaper-4.jpeg");
+    background-image: url("wall-images/phone-wallpaper-4.jpeg");
   }
 }
 
 @keyframes desktop-slider {
   0% {
-    background-image: url("Wall-images/classic-cars.jpg");
+    background-image: url("wall-images/classic-cars.jpg");
   }
   30% {
-    background-image: url("Wall-images/pink-flowers.webp");
+    background-image: url("wall-images/pink-flowers.webp");
   }
   60% {
-    background-image: url("Wall-images/sport-cars.jpg");
+    background-image: url("wall-images/sport-cars.jpg");
   }
   100% {
-    background-image: url("Wall-images/house.webp");
+    background-image: url("wall-images/house.webp");
   }
 }
