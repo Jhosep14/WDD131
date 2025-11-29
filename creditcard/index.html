@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="validation.js" defer></script>
+    <title>Credit Card Form</title>
+</head>
+<body>
+    <h1>Credit Card Information</h1>
+    <div id="card-visual-side-A">
+        <!-- Card visualization will be rendered here -->
+        <form action="#" method="post">
+        <label for="card-number">Card Number</label>
+        <input type="text" id="card-number" name="card-number" required>
+        <div id="card-number-error" class="error-message"></div>
+    </form>
+    </div>
+    <div id="card-visual-side-B">
+        <!-- Card visualization will be rendered here -->
+        <form action="#" method="post">
+            <div class="form-group card-holder-group">
+                <label for="card-holder">Card Holder</label>
+                <input type="text" id="card-holder" name="card-holder" required>
+                <div id="card-holder-error" class="error-message"></div>
+            </div>
+            <div class="form-group expiry-date-group">
+                <label for="expiry-date">Expiry Date</label>
+                <input type="month" id="expiry-date-picker" name="expiry-date-picker" required>
+                <div id="expiry-date-error" class="error-message"></div>
+            </div>
+            <div class="form-group cvv-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" required>
+                <div id="cvv-error" class="error-message"></div>
+            </div>
+        </form>
+    </div>
+    <div id="submit-button-container">
+        <!-- Submit button will be rendered here -->
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>

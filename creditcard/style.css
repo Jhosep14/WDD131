@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: lato, 'helvetica-light', 'sans-serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    flex-direction: column;
+}
+h1 {
+    margin: -120px 0 20px 0;
+}
+
+#card-visual-side-A {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    background-image: url("images/credit-card-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    z-index: 1;
+    position: relative;
+}
+#card-visual-side-B {
+    width: 400px;
+    height: 260px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    background-image: url("images/credit-card-background-B.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: -95px 0 20px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    z-index: 0;
+    position: relative;
+}
+#card-number {
+    font-size: 1em;
+    color: black;
+    width: 220px;
+}
+#card-holder, #expiry-date-picker, #cvv {
+    font-size: 0.9em;
+    color: black;
+    margin-bottom: 5px;
+}
+#card-holder {
+    text-transform: uppercase;
+    width: 250px;
+}
+#expiry-date-picker {
+    width: 120px;
+}
+#cvv {
+    width: 50px;
+}
+
+label {
+    display: block;
+    color: white;
+}
+
+button {
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #ff6b6b 0%, #ffa500 100%);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ffa500 0%, #ff6b6b 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.error-message {
+    color: #ff6b6b;
+    font-size: 0.8em;
+    margin-top: 5px;
+    font-weight: 500;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.error-message.show {
+    opacity: 1;
+}
+
+.invalid {
+    border-color: #ff6b6b !important;
+    box-shadow: 0 0 0 2px rgba(255, 107, 107, 0.2) !important;
+}
+
+.invalid {
+    border: 2px solid red;
+    background-color: #ffdddd;
+}
