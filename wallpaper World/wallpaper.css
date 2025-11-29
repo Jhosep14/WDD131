@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -12,9 +12,9 @@
 
 /* Navigation */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav img {
@@ -136,27 +136,27 @@ nav ul li a:hover::after {
 }
 
 .block-1::before {
-    content: '';
-    position: absolute;
-    bottom: -60px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 220px;
-    height: 10px;
-    background: #1e1e1e;
-    border-radius: 5px;
+  content: '';
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
+  height: 10px;
+  background: #1e1e1e;
+  border-radius: 5px;
 }
 
 .block-1::after {
-    content: '';
-    position: absolute;
-    bottom: -50px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 120px;
-    height: 50px;
-    background: #2c2c2c;
-    clip-path: polygon(20% 0, 80% 0, 100% 100%, 0% 100%);
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 50px;
+  background: #2c2c2c;
+  clip-path: polygon(20% 0, 80% 0, 100% 100%, 0% 100%);
 }
 
 
@@ -194,6 +194,7 @@ nav ul li a:hover::after {
   height: 100%;
   transform: rotateZ(45deg);
 }
+
 .shooting-star {
   position: absolute;
   left: 50%;
@@ -258,30 +259,36 @@ nav ul li a:hover::after {
 /* Keyframe Animations */
 @keyframes phone-slider {
   0% {
-    background-image: url("wall-images/phone-wallpaper-1.jpeg");
+    background-image: url("images/phone-wallpaper-1.jpeg");
   }
+
   30% {
-    background-image: url("wall-images/phone-wallpaper-2.jpeg");
+    background-image: url("images/phone-wallpaper-2.jpeg");
   }
+
   60% {
-    background-image: url("wall-images/phone-wallpaper-3.jpeg");
+    background-image: url("images/phone-wallpaper-3.jpeg");
   }
+
   100% {
-    background-image: url("wall-images/phone-wallpaper-4.jpeg");
+    background-image: url("images/phone-wallpaper-4.jpeg");
   }
 }
 
 @keyframes desktop-slider {
   0% {
-    background-image: url("wall-images/classic-cars.jpg");
+    background-image: url("images/classic-cars.jpg");
   }
+
   30% {
-    background-image: url("wall-images/pink-flowers.webp");
+    background-image: url("images/pink-flowers.webp");
   }
+
   60% {
-    background-image: url("wall-images/sport-cars.jpg");
+    background-image: url("images/sport-cars.jpg");
   }
+
   100% {
-    background-image: url("wall-images/house.webp");
+    background-image: url("images/house.webp");
   }
 }
