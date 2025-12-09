@@ -1,16 +1,16 @@
 const articles = [
-	{
-		id: 1,
-		title: 'Septimus Heap Book One: Magyk',
-		date: '2005-03-01',
-		description:
-			'A baby girl, secretly a princess, is discovered by a wizard family. Ten years later, she and her adoptive brother, a young army sentry who is actually the long-lost seventh son of a seventh son, must flee from a dark necromancer and embark on a magical adventure.',
-		imgSrc: 'images/Septimus Heap Book One- Magyk.webp',
-		imgAlt: 'Book cover for Septimus Heap 1',
-		ages: '10-14',
-		genre: 'Fantasy, Young Adult, Adventure, Magic',
-		stars: '&#9733;&#9733;&#9733;&#9733;&#9734;'
-	},
+    {
+        id: 1,
+        title: 'Septimus Heap Book One: Magyk',
+        date: '2005-03-01',
+        description:
+            'A baby girl, secretly a princess, is discovered by a wizard family. Ten years later, she and her adoptive brother, a young army sentry who is actually the long-lost seventh son of a seventh son, must flee from a dark necromancer and embark on a magical adventure.',
+        imgSrc: 'images/Septimus Heap Book One- Magyk.webp',
+        imgAlt: 'Book cover for Septimus Heap 1',
+        ages: '10-14',
+        genre: 'Fantasy, Young Adult, Adventure, Magic',
+        stars: '&#9733;&#9733;&#9733;&#9733;&#9734;'
+    },
     {
         id: 2,
         title: 'Magnus Chase Book One: Sword of Summer',
@@ -25,54 +25,54 @@ const articles = [
         genre: 'Fantasy',
         stars: '&#9733;&#9733;&#9733;&#9733;&#9734;'
     },
-	{
-		id: 3,
-		title: "Harry Potter and the Sorcerer's Stone",
-		date: '1997-06-26',
-		description:
-			"Harry Potter has no idea how famous he is. That's because he's being raised by his miserable aunt and uncle who are terrified Harry will learn that he's really a wizard, just as his parents were. But everything changes when Harry is summoned to attend an infamous school for wizards, and he begins to discover some clues about his illustrious birthright. From the surprising way he is greeted by a lovable giant, to the unique curriculum and colorful faculty at his unusual school, Harry finds himself drawn deep inside a mystical world he never knew existed and closer to his own noble destiny.",
+    {
+        id: 3,
+        title: "Harry Potter and the Sorcerer's Stone",
+        date: '1997-06-26',
+        description:
+            "Harry Potter has no idea how famous he is. That's because he's being raised by his miserable aunt and uncle who are terrified Harry will learn that he's really a wizard, just as his parents were. But everything changes when Harry is summoned to attend an infamous school for wizards, and he begins to discover some clues about his illustrious birthright. From the surprising way he is greeted by a lovable giant, to the unique curriculum and colorful faculty at his unusual school, Harry finds himself drawn deep inside a mystical world he never knew existed and closer to his own noble destiny.",
         // No local image available for this book.
-		imgSrc: 'https://embed.cdn.pais.scholastic.com/v1/channels/sso/products/identifiers/isbn/9780590353427/primary/renditions/700',
-		imgAlt: "Book cover for Harry Potter and the Sorcerer's Stone",
-		ages: '10-14',
-		genre: 'Fantasy, Young Adult, Magic, Adventure',
-		stars: '&#9733;&#9733;&#9733;&#9733;&#9733;'
-	},
-	{
-		id: 4,
-		title: 'The Eye of the World',
-		date: '1990-01-15',
-		description:
-			'The Wheel of Time turns and Ages come and pass, leaving memories that become legend. Legend fades to myth, and even myth is long forgotten when the Age that gave it birth comes again. In one Age, called the Third Age by some, an Age yet to come, an Age long past, a wind rose in the Mountains of Mist. The wind was not the beginning. There are neither beginnings nor endings to the turning of the Wheel of Time. But it was a beginning.',
-		imgSrc: 'images/The Eye of the World.jpg',
-		imgAlt: 'Book cover for The Eye of the World',
-		ages: '15-18',
-		genre: 'Fantasy, High Fantasy, Epic Fantasy, Adventure',
-		stars: '&#9733;&#9733;&#9733;&#9733;&#9734;'
-	},
-	{
-		id: 5,
-		        title: 'Dune',
-				date: '1965-08-01',
-				description:
-					`In a distant future, Paul Atreides' noble family accepts stewardship of the desert planet Arrakis, the only source of the most valuable substance in the universe, "the spice".`,
-				imgSrc: 'images/Dune.jpg',
-				imgAlt: 'Book cover for Dune',
-				ages: '15-18',		genre: 'Science Fiction, Fantasy, Classic',
-		stars: '&#9733;&#9733;&#9733;&#9733;&#9733;'
-	},
-	{
-		id: 6,
-		title: 'The Man in the High Castle',
-		date: '1962-10-01',
-		description:
-			'In an alternate reality where the Axis powers won World War II, the United States is divided between Germany and Japan. A mysterious book called "The Grasshopper Lies Heavy" depicts a world where the Allies won, inspiring a rebellion.',
-		imgSrc: 'images/The Man in the High Castle.jpg',
-		imgAlt: 'Book cover for The Man in the High Castle',
-		ages: '15-18',
-		genre: 'Science Fiction, Alternate History, Dystopian, Classic',
-		stars: '&#9733;&#9733;&#9733;&#9733;&#9734;'
-	}
+        imgSrc: 'https://embed.cdn.pais.scholastic.com/v1/channels/sso/products/identifiers/isbn/9780590353427/primary/renditions/700',
+        imgAlt: "Book cover for Harry Potter and the Sorcerer's Stone",
+        ages: '10-14',
+        genre: 'Fantasy, Young Adult, Magic, Adventure',
+        stars: '&#9733;&#9733;&#9733;&#9733;&#9733;'
+    },
+    {
+        id: 4,
+        title: 'The Eye of the World',
+        date: '1990-01-15',
+        description:
+            'The Wheel of Time turns and Ages come and pass, leaving memories that become legend. Legend fades to myth, and even myth is long forgotten when the Age that gave it birth comes again. In one Age, called the Third Age by some, an Age yet to come, an Age long past, a wind rose in the Mountains of Mist. The wind was not the beginning. There are neither beginnings nor endings to the turning of the Wheel of Time. But it was a beginning.',
+        imgSrc: 'images/The Eye of the World.jpg',
+        imgAlt: 'Book cover for The Eye of the World',
+        ages: '15-18',
+        genre: 'Fantasy, High Fantasy, Epic Fantasy, Adventure',
+        stars: '&#9733;&#9733;&#9733;&#9733;&#9734;'
+    },
+    {
+        id: 5,
+        title: 'Dune',
+        date: '1965-08-01',
+        description:
+            `In a distant future, Paul Atreides' noble family accepts stewardship of the desert planet Arrakis, the only source of the most valuable substance in the universe, "the spice".`,
+        imgSrc: 'images/Dune.jpg',
+        imgAlt: 'Book cover for Dune',
+        ages: '15-18', genre: 'Science Fiction, Fantasy, Classic',
+        stars: '&#9733;&#9733;&#9733;&#9733;&#9733;'
+    },
+    {
+        id: 6,
+        title: 'The Man in the High Castle',
+        date: '1962-10-01',
+        description:
+            'In an alternate reality where the Axis powers won World War II, the United States is divided between Germany and Japan. A mysterious book called "The Grasshopper Lies Heavy" depicts a world where the Allies won, inspiring a rebellion.',
+        imgSrc: 'images/The Man in the High Castle.jpg',
+        imgAlt: 'Book cover for The Man in the High Castle',
+        ages: '15-18',
+        genre: 'Science Fiction, Alternate History, Dystopian, Classic',
+        stars: '&#9733;&#9733;&#9733;&#9733;&#9734;'
+    }
 ];
 
 function createArticleHTML(article) {

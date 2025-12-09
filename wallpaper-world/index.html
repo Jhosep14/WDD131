@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Apple-inspired dashboard for Wallpaper World.">
     <title>Wallpaper World</title>
-    <link rel="icon" href="images/logo-icon.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    <link rel="icon" href="images/logo-transparent.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="wallpaper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="wallpaper.js"></script>
 </head>
 
 <body>
     <header>
         <nav>
-            <img src="images/logo-LM.png" alt="Wallpaper World logo">
+            <img src="images/logo-transparent.png" alt="Wallpaper World logo">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="children-pages/contact.html">Contact</a></li>
@@ -56,48 +59,94 @@
                 </div>
             </div>
         </div>
-        <div class="night">
-            <div class="shooting-star"></div>
-            <div class="shooting-star"></div>
-            <div class="shooting-star"></div>
-            <div class="shooting-star"></div>
-            <div class="shooting-star"></div>
-            <div class="shooting-star"></div>
-            <div class="shooting-star"></div>
-            <div class="shooting-star"></div>
-            <div class="shooting-star"></div>
-            <div class="shooting-star"></div>
+        <div class="slide-container">
+
+            <div class="slide">
+
+                <div class="item" style="background-image: url('images/nature-d1.webp');">
+                    <div class="content">
+                        <div class="name">NATURE</div>
+                        <div class="des">Discover the serenity of the wild. Breath in the fresh air and explore the
+                            hidden
+                            gems of our planet.</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url('images/anime-d1.jpg');">
+                    <div class="content">
+                        <div class="name">ANIME WORLD</div>
+                        <div class="des">Immerse yourself in the vibrant storytelling and artistic brilliance of anime
+                            culture.</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url('images/dragonball-d1.jpg');">
+                    <div class="content">
+                        <div class="name">DRAGON BALL</div>
+                        <div class="des">Unleash your inner power and join the Z fighters in their quest to protect the
+                            universe.</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url('images/marvel-dc-d2.jpg');">
+                    <div class="content">
+                        <div class="name">MARVEL & DC</div>
+                        <div class="des">Witness the clash of titans and the rise of superheroes in this epic cinematic
+                            universe.</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+
+                <!-- Repeating items to ensure there are enough cards for the effect -->
+                <div class="item" style="background-image: url('images/pokemon-d1.jpg');">
+                    <div class="content">
+                        <div class="name">POKEMON</div>
+                        <div class="des">Discover the pokemon world and explore the hidden gems of our planet.</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url('images/car-d1.jpg');">
+                    <div class="content">
+                        <div class="name">CARS</div>
+                        <div class="des">Enjoy the thrill of the open road and the power of the engine.</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="button">
+                <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
 
         </div>
-
-        <div class="Gallery">
-            <h2>Gallery</h2>
-        </div>
-        <div class="container">
-            <figure class="item">
-                <img src="images/landscape-anime.png">
-            </figure>
-            <figure class="item">
-                <img src="images/joker-dark.jpg">
-            </figure>
-            <figure class="item">
-                <img src="images/classic-cars.jpg">
-            </figure>
-            <figure class="item">
-                <img src="images/minion.jpg">
-            </figure>
-            <figure class="item">
-                <img src="images/anime-wallpaper.webp">
-            </figure>
-            <figure class="item">
-                <img src="images/dc-joker.jpg">
-            </figure>
-        </div>
-
-
-
     </main>
 
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Wallpaper World</div>
+            <div class="footer-links">
+                <a href="#">Site Plan</a>
+                <a href="#">Contact</a>
+                <a href="#">Gallery</a>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/" class="fa-brands fa-instagram"></a>
+                <a href="https://www.facebook.com/" class="fa-brands fa-facebook"></a>
+                <a href="https://twitter.com/" class="fa-brands fa-twitter"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Wallpaper World. All rights reserved.</p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </footer>
 </body>
 
 </html>

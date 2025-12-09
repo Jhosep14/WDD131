@@ -5,37 +5,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../wallpaper.css">
+    <link rel="icon" href="../images/logo-transparent.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <img src="../images/logo-LM.png" alt="Wallpaper World logo">
+            <img src="../images/logo-transparent.png" alt="Wallpaper World logo">
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="../children-pages/gallery.html">Gallery</a></li>
+                <li><a href="../children-pages/contact.html">Contact</a></li>
+                <li><a href="../site-plan.html">Site Plan</a></li>
             </ul>
         </nav>
         <h1 style="text-align: center; margin-top: 20px;">Contact Us</h1>
     </header>
 
-    <main>
-        <p>Wallpaper World is a website that offers a curated collection of high-quality wallpapers for both desktop and
-            mobile devices. The site provides users with a wide range of options to enhance their digital experience,
-            whether they're looking for stunning nature scenes, iconic movie and comic book characters, or dynamic anime
-            and Pokémon art. The purpose of Wallpaper World is to provide a user-friendly platform where users can
-            easily find and download wallpapers that match their personal style and preferences.
-        </p>
-        <p style="text-align: center; padding: 20px;">
-            Have questions or suggestions? We'd love to hear from you! Reach out to us for any inquiries about our
-            wallpaper collection or to report any issues.
-        </p>
-        <p style="text-align: center;">
-            Email: support@wallpaperworld.com
-        </p>
+    <main class="contact-page">
+        <section class="mission-section">
+            <h2>Who We Are</h2>
+            <p>Wallpaper World is a website that offers a curated collection of high-quality wallpapers for both desktop
+                and
+                mobile devices. The site provides users with a wide range of options to enhance their digital
+                experience,
+                whether they're looking for stunning nature scenes, iconic movie and comic book characters, or dynamic
+                anime
+                and Pokémon art. The purpose of Wallpaper World is to provide a user-friendly platform where users can
+                easily find and download wallpapers that match their personal style and preferences.
+            </p>
+        </section>
+
+        <section class="contact-form-section">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>Have questions or suggestions? We'd love to hear from you! Reach out to us for any inquiries about
+                    our
+                    wallpaper collection or to report any issues.</p>
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>support@wallpaperworld.com</span>
+                </div>
+            </div>
+            <form class="contact-form" action="#" method="get">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
     </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Wallpaper World</div>
+            <div class="footer-links">
+                <a href="#">Link one</a>
+                <a href="#">Link two</a>
+                <a href="#">Link three</a>
+                <a href="#">Link four</a>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Wallpaper World. All rights reserved.</p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </footer>
 </body>
 
 </html>
