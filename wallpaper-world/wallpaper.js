@@ -1,143 +1,143 @@
 const wallpapers = {
     "anime": `
         <figure class="item">
-            <img src="../images/anime-d1.jpg">
+            <img src="../images/anime-d1.jpg" alt="anime desktop wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/anime-p1.jpeg">
+            <img src="../images/anime-p1.jpeg" alt="anime phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/anime-p2.jpeg">
+            <img src="../images/anime-p2.jpeg" alt="anime phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/anime-p3.jpeg">
+            <img src="../images/anime-p3.jpeg" alt="anime phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/anime-d2.jpg">
+            <img src="../images/anime-d2.jpg" alt="anime desktop wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/anime-p4.jpeg">
+            <img src="../images/anime-p4.jpeg" alt="anime phone wallpaper">
         </figure>
     `,
     "pokemon": `
         <figure class="item">
-            <img src="../images/pokemon-d1.jpg">
+            <img src="../images/pokemon-d1.jpg" alt="pokemon desktop wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/pokemon-p1.jpeg">
+            <img src="../images/pokemon-p1.jpeg" alt="pokemon phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/pokemon-p2.jpeg">
+            <img src="../images/pokemon-p2.jpeg" alt="pokemon phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/pokemon-p3.jpeg">
+            <img src="../images/pokemon-p3.jpeg" alt="pokemon phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/pokemon-d2.jpg">
+            <img src="../images/pokemon-d2.jpg" alt="pokemon desktop wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/pokemon-p4.jpeg">
+            <img src="../images/pokemon-p4.jpeg" alt="pokemon phone wallpaper">
         </figure>
     `,
 
     "nature": `
         <figure class="item">
-            <img src="../images/nature-d1.webp">
+            <img src="../images/nature-d1.webp" alt="nature desktop wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/nature-p1.jpeg">
+            <img src="../images/nature-p1.jpeg" alt="nature phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/nature-p2.webp">
+            <img src="../images/nature-p2.webp" alt="nature phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/nature-p3.jpg">
+            <img src="../images/nature-p3.jpg" alt="nature phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/nature-d2.png">
+            <img src="../images/nature-d2.png" alt="nature desktop wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/nature-p4.jpg">
+            <img src="../images/nature-p4.jpg" alt="nature phone wallpaper">
         </figure>
     `,
     "marvel-dc": `
         <figure class="item">
-            <img src="../images/marvel-dc-d2.jpg">
+            <img src="../images/marvel-dc-d2.jpg" alt="marvel dc desktop wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/marvel-dc-p1.jpeg">
+            <img src="../images/marvel-dc-p1.jpeg" alt="marvel dc phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/marvel-dc-p2.jpg">
+            <img src="../images/marvel-dc-p2.jpg" alt="marvel dc phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/marvel-dc-p3.jpg">
+            <img src="../images/marvel-dc-p3.jpg" alt="marvel dc phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/marvel-dc-d3.jpg">
+            <img src="../images/marvel-dc-d3.jpg" alt="marvel dc desktop wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/marvel-dc-p5.jpg">
+            <img src="../images/marvel-dc-p5.jpg" alt="marvel dc phone wallpaper">
         </figure>
     `,
     "dragonball": `
         <figure class="item">
-            <img src="../images/dragonball-d1.jpg">
+            <img src="../images/dragonball-d1.jpg" alt="dragonball z desktop wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/dragonball-p1.jpeg">
+            <img src="../images/dragonball-p1.jpeg" alt="dragonball z phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/dragonball-p2.jpeg">
+            <img src="../images/dragonball-p2.jpeg" alt="dragonball z phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/dragonball-p3.jpeg">
+            <img src="../images/dragonball-p3.jpeg" alt="dragonball z phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/dragonball-d2.jpg">
+            <img src="../images/dragonball-d2.jpg" alt="dragonball z desktop wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/dragonball-p4.jpg">
+            <img src="../images/dragonball-p4.jpg" alt="dragonball z phone wallpaper">
         </figure>
     `,
     "space": `
         <figure class="item">
-            <img src="../images/space-d1.jpg">
+            <img src="../images/space-d1.jpg" alt="space desktop wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/space-p1.jpeg">
+            <img src="../images/space-p1.jpeg" alt="space phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/space-p2.jpeg">
+            <img src="../images/space-p2.jpeg" alt="space phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/space-p3.jpeg">
+            <img src="../images/space-p3.jpeg" alt="space phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/space-d2.jpg">
+            <img src="../images/space-d2.jpg" alt="space desktop wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/space-p4.webp">
+            <img src="../images/space-p4.webp" alt="space phone wallpaper">
         </figure>
     `,
     "cars": `
         <figure class="item">
-            <img src="../images/car-d1.jpg">
+            <img src="../images/car-d1.jpg" alt="cars desktop wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/car-p1.jpeg">
+            <img src="../images/car-p1.jpeg" alt="cars phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/car-p2.jpeg">
+            <img src="../images/car-p2.jpeg" alt="cars phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/car-p3.jpeg">
+            <img src="../images/car-p3.jpeg" alt="cars phone wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/car-d2.jpg">
+            <img src="../images/car-d2.jpg" alt="cars desktop wallpaper">
         </figure>
         <figure class="item">
-            <img src="../images/car-p4.jpeg">
+            <img src="../images/car-p4.jpeg" alt="cars phone wallpaper">
         </figure>
     `
 
