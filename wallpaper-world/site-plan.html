@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <h1>Wallpaper World</h1>
+        <h1>Wallpaper Zone</h1>
         <h2>Jhosep Anghelo Bailon Velasquez</h2>
         <h2>WDD 131-Section A1</h2>
         <!-- In the header above, add the name or your site, your name and class number. For example if you are in section 3 you would put WDD 131.03 -->
@@ -25,20 +25,22 @@
         <hr />
         <h2>Overview</h2>
         <h3>Purpose</h3>
-        <p>Wallpaper World is a website that offers a curated collection of high-quality wallpapers for both desktop and
+        <p>Wallpaper Zone is a website that offers a curated collection of high-quality wallpapers for both desktop and
             mobile devices. The site provides users with a wide range of options to enhance their digital experience,
-            whether they're looking for stunning nature scenes, iconic movie and comic book characters, or dynamic anime
-            and Pokémon art. The purpose of Wallpaper World is to provide a user-friendly platform where users can
+            whether they're looking for stunning nature scenes, breathtaking space views, sleek cars, iconic movie and
+            comic book characters, or dynamic anime
+            and Pokémon art. The purpose of Wallpaper Zone is to provide a user-friendly platform where users can
             easily find and download wallpapers that match their personal style and preferences.</p>
         <!-- change this -->
 
         <h3>Audience</h3>
-        <p>Wallpaper World is designed for a diverse audience, including individuals who enjoy personalizing their
+        <p>Wallpaper Zone is designed for a diverse audience, including individuals who enjoy personalizing their
             digital spaces with visually appealing wallpapers. The target audience includes:</p>
         <ul>
             <li>Individuals who value aesthetics and want to enhance their digital experience with high-quality
                 wallpapers.</li>
-            <li>Users who enjoy exploring different styles and themes, such as nature, anime, Pokémon, and movie
+            <li>Users who enjoy exploring different styles and themes, such as nature, space, cars, anime, Pokémon, and
+                movie
                 characters.</li>
             <li>Mobile users who want to personalize their lock screens and home screens with visually appealing
                 wallpapers.</li>
@@ -46,12 +48,27 @@
         </ul>
 
         <h3>Dynamic elements</h3>
-        <p>Wallpaper World features dynamic elements provided by JavaScript, including:</p>
+        <p>Wallpaper Zone features dynamic elements provided by JavaScript, including:</p>
         <ul>
-            <li>Interactive navigation menu with smooth scrolling.</li>
-            <li>Dynamic wallpaper display with responsive design.</li>
-            <li>Animated shooting stars in the night section.</li>
-            <li>Dynamic gallery layout with smooth transitions.</li>
+            <li>
+                <strong>Image Slider (Carousel):</strong> Implemented in <code>wallpaper.js</code> using the
+                <code>next</code> and <code>prev</code> buttons.
+                When clicked, the script moves the first or last <code>.item</code> in the DOM list to the end or
+                beginning of the container, creating an infinite loop effect.
+            </li>
+            <li>
+                <strong>Genre Filter:</strong> Users can filter wallpapers by category (Anime, Pokémon, Nature, etc.).
+                The Javascript listens for the <code>change</code> event on the dropdown menu and dynamically updates
+                the gallery container's HTML with pre-defined template literals from the <code>wallpapers</code> object.
+                It also supports URL parameters (e.g., <code>?filter=nature</code>) to pre-select a category from the
+                home page.
+            </li>
+            <li>
+                <strong>Contact Form (EmailJS):</strong> The contact form uses the <code>sendEmail()</code> function to
+                capture user input.
+                It prevents the default page reload using <code>e.preventDefault()</code>, sends the data via the
+                EmailJS API, and automatically resets the form fields upon successful transmission.
+            </li>
         </ul>
 
         <hr />
@@ -141,7 +158,8 @@
             <strong>Redefine Your Workspace</strong><br>
             Your screen is more than just a desktop; it's the center of your world. Transform it with our free, curated
             library of stunning 4K wallpapers. Discover breathtaking nature photography, explore iconic worlds from
-            Marvel and DC, or capture the dynamic energy of your favorite anime and Pokémon. Find the perfect,
+            Marvel and DC, or capture the dynamic energy of your favorite anime, cars, space and Pokémon. Find the
+            perfect,
             high-resolution art that reflects your style.
         </p>
         <p>Images for the Home page:</p>
@@ -150,6 +168,7 @@
             <img src="images/car-d1.jpg" alt="car desktop wallpaper">
             <img src="images/nature-d2.png" alt="nature desktop wallpaper">
             <img src="images/marvel-dc-d1.jpg" alt="marvel dc desktop wallpaper">
+            <img src="images/space-d1.jpg" alt="space desktop wallpaper">
         </div>
         <p>
             <strong>Your Phone, Your Vibe</strong><br>
@@ -163,15 +182,18 @@
             <img src="images/anime-p4.jpeg" alt="anime phone wallpaper">
             <img src="images/city-p1.jpeg" alt="city phone wallpaper">
             <img src="images/dragonball-p2.jpeg" alt="dragonball phone wallpaper">
+            <img src="images/space-p1.jpeg" alt="space phone wallpaper">
+            <img src="images/car-p1.jpeg" alt="car phone wallpaper">
         </div>
         <h3>Contact Us</h3>
         <p>
             <strong>Who We Are</strong><br>
-            Wallpaper World is a website that offers a curated collection of high-quality wallpapers for both desktop
+            Wallpaper Zone is a website that offers a curated collection of high-quality wallpapers for both desktop
             and
             mobile devices. The site provides users with a wide range of options to enhance their digital experience,
-            whether they're looking for stunning nature scenes, iconic movie and comic book characters, or dynamic anime
-            and Pokémon art. The purpose of Wallpaper World is to provide a user-friendly platform where users can
+            whether they're looking for stunning nature scenes, breathtaking space views, sleek cars, iconic movie and
+            comic book characters, or dynamic anime
+            and Pokémon art. The purpose of Wallpaper Zone is to provide a user-friendly platform where users can
             easily find and download wallpapers that match their personal style and preferences.
         </p>
         <p>
@@ -181,14 +203,13 @@
             will get back to you as soon as possible.
         </p>
         <p>Images for the Contact Us page:</p>
-        <img src="images/logo-transparent.png" alt="Wallpaper World Logo">
+        <img src="images/logo-transparent.png" alt="Wallpaper Zone Logo">
         <h3>Gallery</h3>
         <p>
-            Wallpaper World is a website that offers a curated collection of high-quality wallpapers for both desktop
-            and mobile devices. The site provides users with a wide range of options to enhance their digital
-            experience, whether they're looking for stunning nature scenes, iconic movie and comic book characters, or
-            dynamic anime and Pokémon art. The purpose of Wallpaper World is to provide a user-friendly platform where
-            users can easily find and download wallpapers that match their personal style and preferences.
+            Browse our extensive collection of high-resolution wallpapers. Use the filter below to find your specific
+            style.
+            The gallery allows users to select from various genres such as Anime, Pokémon, Marvel/DC, Nature, Dragon
+            Ball Z, Space, and Cars.
         </p>
         <p>Images for the Gallery page:</p>
         <div class="image-grid">
@@ -202,6 +223,10 @@
             <img src="images/nature-p1.jpeg" alt="Nature Phone">
             <img src="images/dragonball-d1.jpg" alt="Dragonball Desktop">
             <img src="images/dragonball-p1.jpeg" alt="Dragonball Phone">
+            <img src="images/space-d1.jpg" alt="Space Desktop">
+            <img src="images/space-p1.jpeg" alt="Space Phone">
+            <img src="images/car-d1.jpg" alt="Car Desktop">
+            <img src="images/car-p1.jpeg" alt="Car Phone">
         </div>
         <h2>Wireframes</h2>
         <h3>Home</h3>
@@ -210,20 +235,20 @@
             highlighting desktop and mobile wallpapers. It also includes a shooting star animation and a preview of the
             gallery.
         </p>
-        <img src="images/home-wireframe.png" alt="home page wireframe" />
+        <img class="wireframe" src="images/home-page-wireframe.png" alt="home page wireframe" />
 
         <h3>Gallery</h3>
         <p>
             The gallery page displays a grid of high-quality wallpapers. Users can browse through different categories
             and select wallpapers to view or download.
         </p>
-        <img src="images/gallery-wireframe.png" alt="gallery page wireframe" />
+        <img class="wireframe" src="images/gallery-wireframe.png" alt="gallery page wireframe" />
         <h3>Contact Us</h3>
         <p>
             The contact page provides a simple way for users to reach out. It includes a contact form or contact
             information for inquiries and feedback.
         </p>
-        <img src="images/contact-us-wireframe.png" alt="contact page wireframe" />
+        <img class="wireframe" src="images/contact-wireframe.png" alt="contact page wireframe" />
 
     </main>
 </body>

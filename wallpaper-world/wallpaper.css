@@ -118,20 +118,35 @@ nav ul li a:hover::after {
 .block {
   flex: 1 1 400px;
   max-width: 600px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .block h2 {
-  margin: 50px 0 0 0;
+  margin: 0 0 15px 0;
   text-align: center;
   font-size: 3rem;
   font-family: var(--secondary-font);
+  color: #000;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .block p {
-  margin: 50px 0 0 0;
+  margin: 0;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: var(--primary-font);
+  line-height: 1.6;
+  color: #000;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 /* Animated Blocks */
@@ -291,7 +306,8 @@ nav ul li a:hover::after {
   text-shadow: 2px 2px 4px #000;
 }
 
-.item button {
+.item button,
+.item .see-more {
   padding: 10px 20px;
   border: none;
   opacity: 0;
@@ -302,9 +318,14 @@ nav ul li a:hover::after {
   font-weight: 500;
   cursor: pointer;
   text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  z-index: 100;
 }
 
-.item button:hover {
+.item button:hover,
+.item .see-more:hover {
   background-color: #f0f0f0;
 }
 
@@ -376,6 +397,14 @@ nav ul li a:hover::after {
 /* --------------------------------------------------------------- */
 
 /* Gallery Section */
+.Gallery {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  color: #000;
+  font-size: 1.2rem;
+}
+
 
 .filter {
   display: flex;
@@ -409,16 +438,16 @@ nav ul li a:hover::after {
   border-radius: 15px;
 }
 
-.Gallery h2 {
+.Gallery h3 {
   padding: 20px 0;
   text-align: center;
   font-size: clamp(1rem, 15vw, 13rem);
   font-family: var(--primary-font);
   font-weight: 700;
-  text-transform: uppercase;
   color: transparent;
   background-image: url("images/collage.png");
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -497,16 +526,24 @@ nav ul li a:hover::after {
     background-image: url("images/pokemon-p1.jpeg");
   }
 
-  30% {
+  20% {
     background-image: url("images/anime-p4.jpeg");
   }
 
-  60% {
+  40% {
     background-image: url("images/city-p1.jpeg");
   }
 
-  100% {
+  60% {
     background-image: url("images/dragonball-p2.jpeg");
+  }
+
+  80% {
+    background-image: url("images/space-p1.jpeg");
+  }
+
+  100% {
+    background-image: url("images/car-p1.jpeg");
   }
 }
 
@@ -515,16 +552,24 @@ nav ul li a:hover::after {
     background-image: url("images/anime-d1.jpg");
   }
 
-  30% {
+  20% {
     background-image: url("images/car-d1.jpg");
   }
 
-  60% {
+  40% {
     background-image: url("images/nature-d2.png");
   }
 
-  100% {
+  60% {
     background-image: url("images/marvel-dc-d1.jpg");
+  }
+
+  80% {
+    background-image: url("images/space-d1.jpg");
+  }
+
+  100% {
+    background-image: url("images/pokemon-d1.jpg");
   }
 }
 

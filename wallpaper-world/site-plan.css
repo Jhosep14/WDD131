@@ -39,6 +39,8 @@ body {
     margin: 0 auto;
     padding: 4em;
     font-size: 18px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 1.5;
 }
 
 img {
@@ -54,6 +56,7 @@ h5,
 h6 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
+    font-weight: 700;
 }
 
 h2 {
@@ -82,6 +85,8 @@ p {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color);
     padding: 1em;
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 .colors {
@@ -222,4 +227,9 @@ nav a:hover {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.wireframe {
+    width: 45em;
+    height: 50em;
 }

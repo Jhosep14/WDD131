@@ -99,7 +99,48 @@ const wallpapers = {
         <figure class="item">
             <img src="../images/dragonball-p4.jpg">
         </figure>
+    `,
+    "space": `
+        <figure class="item">
+            <img src="../images/space-d1.jpg">
+        </figure>
+        <figure class="item">
+            <img src="../images/space-p1.jpeg">
+        </figure>
+        <figure class="item">
+            <img src="../images/space-p2.jpeg">
+        </figure>
+        <figure class="item">
+            <img src="../images/space-p3.jpeg">
+        </figure>
+        <figure class="item">
+            <img src="../images/space-d2.jpg">
+        </figure>
+        <figure class="item">
+            <img src="../images/space-p4.webp">
+        </figure>
+    `,
+    "cars": `
+        <figure class="item">
+            <img src="../images/car-d1.jpg">
+        </figure>
+        <figure class="item">
+            <img src="../images/car-p1.jpeg">
+        </figure>
+        <figure class="item">
+            <img src="../images/car-p2.jpeg">
+        </figure>
+        <figure class="item">
+            <img src="../images/car-p3.jpeg">
+        </figure>
+        <figure class="item">
+            <img src="../images/car-d2.jpg">
+        </figure>
+        <figure class="item">
+            <img src="../images/car-p4.jpeg">
+        </figure>
     `
+
 };
 
 const genreSelect = document.getElementById("genre");
@@ -118,6 +159,17 @@ if (genreSelect && container) {
             container.innerHTML = wallpapers[selectedGenre];
         }
     });
+
+    // Check for query parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const filter = urlParams.get('filter');
+
+    if (filter) {
+        // Set the select box value
+        genreSelect.value = filter;
+        // Trigger the change event manually to filter the content
+        genreSelect.dispatchEvent(new Event('change'));
+    }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -134,3 +186,20 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('.slide').prepend(items[items.length - 1]); // here the length of items = 6
     });
 });
+
+function sendEmail(e) {
+    e.preventDefault();
+    let params = {
+        subject: document.getElementById("subject").value,
+        email: document.getElementById("email").value,
+        name: document.getElementById("name").value,
+        message: document.getElementById("message").value,
+    };
+    emailjs.send('service_1e7s43g', 'template_5r8z7js', params)
+        .then(function () {
+            console.log('SUCCESS!');
+            e.target.reset();
+        }, function (error) {
+            console.log('FAILED...', error);
+        });
+}
